@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fourthstatelab.androidworkshop.LoginDetailsAct">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Enter Pin"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/re_enterpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pin"
+        android:layout_below="@+id/pin"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Re-enter Pin"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/okay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_enterpin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Okay" />
+</RelativeLayout>
